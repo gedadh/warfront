@@ -1,0 +1,51 @@
+{
+  "id": "level-02",
+  "name": "Assault",
+  "description": "Enemy forces have taken control. Clear the area.",
+  "difficulty": "medium",
+  "width": 50,
+  "height": 40,
+  "tileSize": 32,
+  "playerSpawn": {
+    "x": 3,
+    "y": 20
+  },
+  "enemies": [
+    {
+      "type": "soldier",
+      "x": 15,
+      "y": 20,
+      "patrol": [
+        { "x": 12, "y": 20 },
+        { "x": 18, "y": 20 }
+      ]
+    },
+    {
+      "type": "soldier",
+      "x": 30,
+      "y": 25
+    },
+    {
+      "type": "tank",
+      "x": 40,
+      "y": 20
+    }
+  ],
+  "objectives": [
+    {
+      "id": "obj-1",
+      "type": "eliminate",
+      "count": 3,
+      "description": "Eliminate all enemies"
+    },
+    {
+      "id": "obj-2",
+      "type": "reach",
+      "target": { "x": 45, "y": 20 },
+      "description": "Reach the command post"
+    }
+  ],
+  "tiles": [],
+  "ambient": "dusk",
+  "music": "music-game"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "level-01",
+  "name": "First Contact",
+  "description": "Your first mission in the war zone. Learn the basics.",
+  "difficulty": "easy",
+  "width": 40,
+  "height": 30,
+  "tileSize": 32,
+  "playerSpawn": {
+    "x": 5,
+    "y": 15
+  },
+  "enemies": [
+    {
+      "type": "soldier",
+      "x": 20,
+      "y": 15,
+      "patrol": [
+        { "x": 18, "y": 15 },
+        { "x": 22, "y": 15 }
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "id": "obj-1",
+      "type": "reach",
+      "target": { "x": 35, "y": 15 },
+      "description": "Reach the extraction point"
+    }
+  ],
+  "tiles": [],
+  "ambient": "day",
+  "music": "music-game"
+}

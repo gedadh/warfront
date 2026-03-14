@@ -1,0 +1,55 @@
+{
+  "game": {
+    "title": "WARFRONT",
+    "version": "0.1.0-alpha",
+    "debug": true
+  },
+  "player": {
+    "speed": 200,
+    "jumpForce": 400,
+    "health": 100,
+    "maxHealth": 100,
+    "lives": 3
+  },
+  "weapons": {
+    "rifle": {
+      "damage": 25,
+      "fireRate": 150,
+      "ammo": 30,
+      "maxAmmo": 30
+    },
+    "pistol": {
+      "damage": 15,
+      "fireRate": 300,
+      "ammo": 12,
+      "maxAmmo": 12
+    }
+  },
+  "enemies": {
+    "soldier": {
+      "health": 50,
+      "speed": 100,
+      "damage": 10,
+      "sightRange": 200,
+      "attackRange": 150
+    },
+    "tank": {
+      "health": 500,
+      "speed": 50,
+      "damage": 100,
+      "sightRange": 300,
+      "attackRange": 250
+    }
+  },
+  "audio": {
+    "masterVolume": 1.0,
+    "musicVolume": 0.5,
+    "sfxVolume": 0.8
+  },
+  "display": {
+    "width": 1280,
+    "height": 720,
+    "fullscreen": false,
+    "vsync": true
+  }
+}
